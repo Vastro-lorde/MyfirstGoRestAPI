@@ -8,6 +8,7 @@ import(
 func StartServer(){
 	router := gin.Default()
 	router.GET("/todos", controllers.GetTodos)
+	router.GET("/", controllers.GetHome)
 
 	router.Run("localhost:5900")
 }
