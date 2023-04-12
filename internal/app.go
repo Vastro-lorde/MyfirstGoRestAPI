@@ -1,10 +1,10 @@
-package app
+package internal
 
 import (
 	"log"
 	"os"
 	"github.com/gin-gonic/gin"
-	"golang.org/seun/Todo/app/controllers"
+	"golang.org/seun/Todo/internal/controllers"
 )
 
 func StartServer() {

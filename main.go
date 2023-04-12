@@ -1,9 +1,9 @@
 package main
 
-import(
-	"golang.org/seun/Todo/app"
+import (
+	"golang.org/seun/Todo/internal"
 )
 
-func main(){
-	app.StartServer()
+func main() {
+	internal.StartServer()
 }

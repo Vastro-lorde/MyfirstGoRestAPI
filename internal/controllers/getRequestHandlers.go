@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"golang.org/seun/Todo/app/data"
+	"golang.org/seun/Todo/internal/data"
 )
 
 func GetTodos(context *gin.Context) {
